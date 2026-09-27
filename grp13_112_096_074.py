@@ -119,8 +119,8 @@ print(log_model.summary())
 # st.pyplot(fig)
 
 # 1. Install streamlit and localtunnel
-!pip install -q streamlit
-!npm install -g localtunnel
+pip install -q streamlit
+npm install -g localtunnel
 
 # 2. Get the IP address for the password screen
 import urllib
