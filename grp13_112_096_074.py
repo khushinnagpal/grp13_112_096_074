@@ -123,5 +123,3 @@ print(log_model.summary())
 import urllib
 print("Password/Endpoint IP:", urllib.request.urlopen('https://ipv4.icanhazip.com').read().decode('utf8').strip("\n"))
 
-# 3. Run Streamlit and force localtunnel to bypass the "y/n" prompt
-!streamlit run app.py & npx -y localtunnel --port 8501
