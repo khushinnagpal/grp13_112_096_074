@@ -118,9 +118,6 @@ print(log_model.summary())
 # sns.histplot(filtered_df['age'], ax=ax, kde=True)
 # st.pyplot(fig)
 
-# 1. Install streamlit and localtunnel
-pip install -q streamlit
-npm install -g localtunnel
 
 # 2. Get the IP address for the password screen
 import urllib
